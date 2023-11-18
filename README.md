@@ -34,7 +34,7 @@ The study successfully utilized 1,664 substances to construct and evaluate ALK i
 
 A consensus docking model integrated results from Autodock-GPU, Vina-GPU-2.0, and GNINA software, achieving an AUC of 0.818. The project virtually screened 120,571 substances and identified the three most promising ALK inhibitors: CHEMBL1689515, CHEMBL2380351, and CHEMBL102714.
 
-![Figure 3. Docking analysis of three potential candidates](Manuscript_figures/Figure12.png "Docking analysis of three potential candidates")
+![Figure 3. Docking analysis of three potential candidates](Manuscript_figures/Figure13.png "Docking analysis of three potential candidates")
 
 
 ## Conclusions
