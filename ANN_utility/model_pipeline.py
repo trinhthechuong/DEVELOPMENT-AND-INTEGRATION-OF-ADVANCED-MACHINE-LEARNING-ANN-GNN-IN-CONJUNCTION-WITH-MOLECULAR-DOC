@@ -48,7 +48,8 @@ class model_pipeline():
         self.save_dir = save_dir
         self.epochs = epochs
         self.show_progress = show_progress
-
+        self.seed_everything()
+        
     def seed_everything(self):
         #Ensuring reproducible of training
         random.seed(self.seed)
@@ -61,6 +62,7 @@ class model_pipeline():
 
     def train(self):
         #Training
+        #self.seed_everything()
         self.model.train()
         trainning_loss = 0
         truelabels = []
@@ -233,10 +235,11 @@ class model_pipeline():
     def cross_val_score(self, X, y,model, cv,batch_size, device,verbose = True):
         #Splitting original dataset
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2,random_state =42, stratify=y)
-        
+        self.seed_everything()
         self.History = {"F1_record":[],"AP_record":[]}
         
         for i, (train_index, test_index) in enumerate(cv.split(X_train, y_train)):
+            
             Xtrain = torch.tensor(X_train.iloc[train_index,:].values , device=self.device).float()
             Xtest = torch.tensor(X_train.iloc[test_index,:].values, device=self.device).float()
 
@@ -252,7 +255,7 @@ class model_pipeline():
             self.valid_loader = torch.utils.data.DataLoader(dataset=test_dataset,
                                               batch_size=batch_size,
                                               shuffle=False)
-            
+            #self.seed_everything()
             self.model = model.to(self.device)
             self.model.apply(lambda m: self.reset_weights(m))
             
@@ -275,5 +278,7 @@ class model_pipeline():
         print(f"Overall AP score = {self.mean_scores_ap :.4f}")
         self.mean_scores_f1 = sum(self.History["F1_record"]) / len(self.History["F1_record"])
         print(f"Overall F1 score = {self.mean_scores_f1:.4f}")
+
+
 
         

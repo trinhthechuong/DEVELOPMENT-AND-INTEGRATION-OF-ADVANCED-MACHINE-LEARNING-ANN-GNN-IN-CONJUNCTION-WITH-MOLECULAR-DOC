@@ -1,0 +1,53 @@
+HETATM    1  C   UNK     0     -22.197  12.571  -8.853  0.00  0.00           C  
+HETATM    2  C   UNK     0     -21.384  13.515  -9.360  0.00  0.00           C  
+HETATM    3  C   UNK     0     -22.142  14.260 -10.382  0.00  0.00           C  
+HETATM    4  O   UNK     0     -21.701  15.139 -11.099  0.00  0.00           O  
+HETATM    5  N   UNK     0     -23.394  13.765 -10.390  0.00  0.00           N  
+HETATM    6  C   UNK     0     -23.501  12.718  -9.546  0.00  0.00           C  
+HETATM    7  O   UNK     0     -24.487  12.016  -9.415  0.00  0.00           O  
+HETATM    8  H   UNK     0     -24.120  14.057 -11.023  0.00  0.00           H  
+HETATM    9  C   UNK     0     -21.926  11.589  -7.860  0.00  0.00           C  
+HETATM   10  C   UNK     0     -20.817  11.590  -7.039  0.00  0.00           C  
+HETATM   11  N   UNK     0     -20.908  10.509  -6.203  0.00  0.00           N  
+HETATM   12  C   UNK     0     -19.932  10.165  -5.193  0.00  0.00           C  
+HETATM   13  C   UNK     0     -22.063   9.801  -6.458  0.00  0.00           C  
+HETATM   14  C   UNK     0     -22.722  10.456  -7.504  0.00  0.00           C  
+HETATM   15  C   UNK     0     -22.580   8.642  -5.856  0.00  0.00           C  
+HETATM   16  C   UNK     0     -23.952   9.929  -7.954  0.00  0.00           C  
+HETATM   17  C   UNK     0     -24.476   8.775  -7.361  0.00  0.00           C  
+HETATM   18  C   UNK     0     -23.797   8.142  -6.326  0.00  0.00           C  
+HETATM   19  C   UNK     0     -19.995  13.809  -9.004  0.00  0.00           C  
+HETATM   20  C   UNK     0     -19.008  12.863  -9.324  0.00  0.00           C  
+HETATM   21  C   UNK     0     -17.672  13.089  -8.984  0.00  0.00           C  
+HETATM   22  C   UNK     0     -17.313  14.263  -8.328  0.00  0.00           C  
+HETATM   23 Cl   UNK     0     -15.667  14.534  -7.907  0.00  0.00          Cl  
+HETATM   24  C   UNK     0     -18.274  15.219  -8.013  0.00  0.00           C  
+HETATM   25  C   UNK     0     -19.611  14.994  -8.354  0.00  0.00           C  
+HETATM   26 Cl   UNK     0     -20.753  16.236  -7.968  0.00  0.00          Cl  
+CONECT    1    9    2    6
+CONECT    2    1   19    3
+CONECT    3    2    4    5
+CONECT    4    3
+CONECT    5    3    6    8
+CONECT    6    5    1    7
+CONECT    7    6
+CONECT    8    5
+CONECT    9    1   10   14
+CONECT   10    9   11
+CONECT   11   10   12   13
+CONECT   12   11
+CONECT   13   11   15   14
+CONECT   14    9   13   16
+CONECT   15   13   18
+CONECT   16   14   17
+CONECT   17   16   18
+CONECT   18   17   15
+CONECT   19    2   25   20
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   23   24
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   19   24   26
+CONECT   26   25
+END

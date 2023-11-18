@@ -1,0 +1,27 @@
+REMARK   4 XXXX COMPLIES WITH FORMAT V. 2.0
+HETATM    1  C4  UNL     1     -18.761  14.541  -8.492 -0.27 -0.02      zinc C  
+HETATM    2  C5  UNL     1     -17.461  14.562  -8.837 -0.30 -0.03      zinc C  
+HETATM    3  C12 UNL     1     -17.133  15.934  -9.267 -0.23 -0.08      zinc C  
+HETATM    4  O1  UNL     1     -16.064  16.305  -9.716 -0.51  0.10      zinc O  
+HETATM    5  N2  UNL     1     -18.239  16.682  -9.096 -0.22  0.08      zinc N  
+HETATM    6  C13 UNL     1     -19.275  15.919  -8.687 -0.19 -0.08      zinc C  
+HETATM    7  O2  UNL     1     -20.419  16.307  -8.542 -0.29  0.07      zinc O  
+HETATM    8  H8  UNL     1     -18.317  17.652  -9.349  0.09 -0.07      zinc H  
+HETATM    9  C3  UNL     1     -19.553  13.451  -8.036 -0.25 -0.00      zinc C  
+HETATM   10  C2  UNL     1     -19.172  12.565  -7.049 -0.16 -0.04      zinc C  
+HETATM   11  N1  UNL     1     -20.192  11.670  -6.865 -0.09  0.14      zinc N  
+HETATM   12  C1  UNL     1     -20.172  10.582  -5.913 -0.30 -0.06      zinc C  
+HETATM   13  C19 UNL     1     -21.241  11.958  -7.713 -0.29 -0.02      zinc C  
+HETATM   14  C14 UNL     1     -20.863  13.074  -8.468 -0.31 -0.00      zinc C  
+HETATM   15  C18 UNL     1     -22.488  11.331  -7.875 -0.35 -0.01      zinc C  
+HETATM   16  C15 UNL     1     -21.777  13.581  -9.416 -0.35 -0.00      zinc C  
+HETATM   17  C16 UNL     1     -23.021  12.964  -9.586 -0.49 -0.00      zinc C  
+HETATM   18  C17 UNL     1     -23.369  11.854  -8.825 -0.49 -0.00      zinc C  
+HETATM   19  C6  UNL     1     -16.492  13.465  -8.809 -0.28 -0.00      zinc C  
+HETATM   20  C7  UNL     1     -15.606  13.384  -7.723 -0.27 -0.01      zinc C  
+HETATM   21  C8  UNL     1     -14.648  12.368  -7.663 -0.21 -0.02      zinc C  
+HETATM   22  C9  UNL     1     -14.575  11.425  -8.684 -0.24 -0.04      zinc C  
+HETATM   23 Cl   UNL     1     -13.391  10.179  -8.609 -0.42  0.08      zincCl  
+HETATM   24  C10 UNL     1     -15.452  11.481  -9.763 -0.33 -0.04      zinc C  
+HETATM   25  C11 UNL     1     -16.412  12.496  -9.823 -0.31 -0.03      zinc C  
+HETATM   26 Cl   UNL     1     -17.498  12.490 -11.170 -0.48  0.05      zincCl  
