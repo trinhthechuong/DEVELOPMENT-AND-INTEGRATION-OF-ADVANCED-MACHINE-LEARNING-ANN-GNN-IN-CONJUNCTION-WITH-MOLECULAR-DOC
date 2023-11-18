@@ -2,9 +2,9 @@
 
 ## Introduction
 
-Non-Small Cell Lung Cancer (NSCLC) is a prevalent form of lung cancer, with the ALK-positive mutation variant accounting for 5% of total cases. While ALK inhibitors have shown efficacy in inhibiting cancer cell growth, only five have received FDA approval, indicating a significant need for new drugs. This project leverages artificial intelligence (AI) and machine learning to accelerate the identification and discovery of promising ALK inhibitor candidates.
+Non-Small Cell Lung Cancer (NSCLC) is a prevalent form of lung cancer, with the ALK-positive mutation variant accounting for 5% of total cases<sup>1</sup>. While ALK inhibitors have shown efficacy in inhibiting cancer cell growth, only five have received FDA approval, indicating a significant need for new drugs. This project leverages artificial intelligence (AI) and machine learning to accelerate the identification and discovery of promising ALK inhibitor candidates.
 
-![Figure 1. Information about five approved ALK inhibitors](Manuscript_figures/Figure1.png)
+![Figure 1. Information about five approved ALK inhibitors](Manuscript_figures/Figure1.png "Information about five approved ALK inhibitors")
 
 ## Materials and Methodology
 
@@ -12,7 +12,7 @@ Non-Small Cell Lung Cancer (NSCLC) is a prevalent form of lung cancer, with the 
 The raw dataset includes 26,168 substances tested for their ALK receptor inhibitory potential collected from scientific articles. The ALK protein (PDB ID: 3AOX) is used for building classification models and conducting molecular docking.
 
 ### Screening Process
-A set of substances investigated for activity on A549 cells (ChEMBL33 database, identifier ChEMBL392) is screened through constructed models, including the ADMET filter, machine learning model (XGBoost), Artificial neural network (ANN), Ensemble Graph neural network (E-GNN), and consensus molecular docking models.
+A set of substances investigated for activity on A549 cells (ChEMBL33 database, identifier ChEMBL392)<sup>2</sup> is screened through constructed models, including the ADMET filter, machine learning model (XGBoost), Artificial neural network (ANN), Ensemble Graph neural network (E-GNN)<sup>3</sup>, and consensus molecular docking models.
 
 ## Results and Discussions
 
@@ -29,14 +29,12 @@ The study successfully utilized 1,664 substances to construct and evaluate ALK i
 3. **E-GNN Model:**
    - EV - F1 Score = 0.808±0.009, AP = 0.827±0.041
    - CV - F1 Score = 0.804±0.049, AP = 0.879±0.041
-   - (Reference: T.-C. Trinh et al., "Graph Neural Network Model for Accurate Prediction of Anaplastic Lymphoma Kinase Inhibitors," *15th Int. Conf. on Knowledge and Systems Engineering (KSE)*, Hanoi, Vietnam, 2023, pp. 1-6, [DOI: 10.1109/KSE59128.2023.10299477](https://doi.org/10.1109/KSE59128.2023.10299477).)
 
-
-![Figure 2. Implemented models in this study](Database/Summary_models.png)
+![Figure 2. Implemented models in this study](Database/Summary_models.png "Implemented models in this study")
 
 A consensus docking model integrated results from Autodock-GPU, Vina-GPU-2.0, and GNINA software, achieving an AUC of 0.818. The project virtually screened 120,571 substances and identified the three most promising ALK inhibitors: CHEMBL1689515, CHEMBL2380351, and CHEMBL102714.
 
-![Figure 3. Docking analysis of three potential candidates](Manuscript_figures/Figure12.png)
+![Figure 3. Docking analysis of three potential candidates](Manuscript_figures/Figure12.png "Docking analysis of three potential candidates")
 
 
 ## Conclusions
@@ -46,6 +44,11 @@ The study recommends:
 - Conducting in vitro tests to validate findings.
 - Enhancing the performance of the GNN model by augmenting data and exploring new network structures.
 - Exploring other AI models such as CNN and RNN to optimize the drug design process.
+
+## References
+1. - Roskoski, R., Jr., "Anaplastic Lymphoma Kinase (ALK): Structure, Oncogenic Activation, and Pharmacological Inhibition," *Pharmacol Res*, vol. 68, pp. 68-94, 2013, [DOI: 10.1016/j.phrs.2012.11.007](https://doi.org/10.1016/j.phrs.2012.11.007).
+2. - Gaulton, A. et al., "ChEMBL: A Large-Scale Bioactivity Database for Drug Discovery," *Nucleic Acids Res*, vol. 40, pp. D1100-D1107, 2011, [DOI: 10.1093/nar/gkr777](https://doi.org/10.1093/nar/gkr777).
+3. T.-C. Trinh et al., "Graph Neural Network Model for Accurate Prediction of Anaplastic Lymphoma Kinase Inhibitors," *15th Int. Conf. on Knowledge and Systems Engineering (KSE)*, Hanoi, Vietnam, 2023, pp. 1-6, [DOI: 10.1109/KSE59128.2023.10299477](https://doi.org/10.1109/KSE59128.2023.10299477)
 
 ## Contributors
 
