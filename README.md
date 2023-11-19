@@ -34,13 +34,13 @@ Ensure you have the following libraries and tools installed:
 
 Explore  functionalities with the following notebooks:
 
-1. [Machine Learning Model Notebook](1. Machine_learning_QSAR.ipynb): Notebook demonstrating the construction and evaluation of the QSAR machine learning model.
+1. [Machine Learning Model Notebook](1.Machine_learning_QSAR.ipynb): Notebook demonstrating the construction and evaluation of the QSAR machine learning model.
 
-2. [Create a Baseline ANN](2. ANN_baseline.ipynb): Notebook outlining the creation of a baseline Artificial Neural Network (ANN).
+2. [Create a Baseline ANN](2.ANN_baseline.ipynb): Notebook outlining the creation of a baseline Artificial Neural Network (ANN).
 
-3. [Optimization of ANN](3. ANN_optimization.ipynb): Notebook detailing the optimization process for the Artificial Neural Network (ANN).
+3. [Optimization of ANN](3.ANN_optimization.ipynb): Notebook detailing the optimization process for the Artificial Neural Network (ANN).
 
-4. [Consensus Docking](4. Consensus docking.ipynb): Notebook illustrating the consensus docking approach for virtual screening.
+4. [Consensus Docking](4.Consensus docking.ipynb): Notebook illustrating the consensus docking approach for virtual screening.
 
 ## Contributors
 
