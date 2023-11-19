@@ -30,11 +30,11 @@ The study successfully utilized 1,664 substances to construct and evaluate ALK i
    - EV - F1 Score = 0.808±0.009, AP = 0.827±0.041
    - CV - F1 Score = 0.804±0.049, AP = 0.879±0.041
 
-![Figure 2. Implemented models in this study](Database/Summary_models.png "Implemented models in this study")
+![Figure 2. Implemented models in this study](Manuscript_figures/Figure11.png "Implemented models in this study")
 
 A consensus docking model integrated results from Autodock-GPU, Vina-GPU-2.0, and GNINA software, achieving an AUC of 0.818. The project virtually screened 120,571 substances and identified the three most promising ALK inhibitors: CHEMBL1689515, CHEMBL2380351, and CHEMBL102714.
 
-![Figure 3. Docking analysis of three potential candidates](Manuscript_figures/Figure13.png "Docking analysis of three potential candidates")
+![Figure 3. Docking analysis of three potential candidates](Manuscript_figures/Figure10.png "Docking analysis of three potential candidates")
 
 
 ## Conclusions
@@ -56,6 +56,7 @@ The study recommends:
 - [Tieu-Long PHAN](https://github.com/TieuLongPhan)
 - Van-Thinh TO
 - Thanh-An PHAM
-- Hoang-Son LE-LAI
+- Hoang-Son Lai Le
 - Gia-Bao TRUONG
-- [Ngoc-Tuyen TRUONG](http://uphcm.edu.vn/emplinfo.aspx?EmplCode=truongngoctuyen)
+- Xuan Truc Dinh Tran
+- [Tuyen Ngoc TRUONG](http://uphcm.edu.vn/emplinfo.aspx?EmplCode=truongngoctuyen)
