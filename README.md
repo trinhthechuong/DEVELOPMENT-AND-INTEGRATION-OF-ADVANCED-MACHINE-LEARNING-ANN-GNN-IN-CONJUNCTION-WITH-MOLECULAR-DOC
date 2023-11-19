@@ -40,7 +40,7 @@ Explore  functionalities with the following notebooks:
 
 3. [Optimization of ANN](3.ANN_optimization.ipynb): Notebook detailing the optimization process for the Artificial Neural Network (ANN).
 
-4. [Consensus Docking](4.Consensus docking.ipynb): Notebook illustrating the consensus docking approach for virtual screening.
+4. [Consensus Docking](4.Consensus_docking.ipynb): Notebook illustrating the consensus docking approach for virtual screening.
 
 ## Contributors
 
