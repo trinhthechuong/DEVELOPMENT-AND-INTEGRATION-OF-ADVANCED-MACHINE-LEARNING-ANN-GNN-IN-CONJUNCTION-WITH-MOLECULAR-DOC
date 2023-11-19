@@ -54,8 +54,8 @@ The study recommends:
 
 - [The-Chuong TRINH](https://github.com/trinhthechuong)
 - [Tieu-Long PHAN](https://github.com/TieuLongPhan)
-- Van-Thinh TO
-- Thanh-An PHAM
+- [Van-Thinh TO](https://github.com/ThinhUMP)
+- [Thanh-An PHAM](https://github.com/Thanh-An-Pham)
 - Hoang-Son LE-LAI
-- Gia-Bao TRUONG
+- [Gia-Bao TRUONG](https://github.com/buchijw)
 - [Ngoc-Tuyen TRUONG](http://uphcm.edu.vn/emplinfo.aspx?EmplCode=truongngoctuyen)
