@@ -45,6 +45,9 @@ The study recommends:
 - Enhancing the performance of the GNN model by augmenting data and exploring new network structures.
 - Exploring other AI models such as CNN and RNN to optimize the drug design process.
 
+## Deployment model
+The deployment model is available at: [https://huggingface.co/spaces/thechuongtrinh/ALK_inhibitors_classification](https://huggingface.co/spaces/thechuongtrinh/ALK_inhibitors_classification)
+
 ## References
 1. Roskoski, R., Jr., "Anaplastic Lymphoma Kinase (ALK): Structure, Oncogenic Activation, and Pharmacological Inhibition," *Pharmacol Res*, vol. 68, pp. 68-94, 2013, [DOI: 10.1016/j.phrs.2012.11.007](https://doi.org/10.1016/j.phrs.2012.11.007).
 2. Gaulton, A. et al., "ChEMBL: A Large-Scale Bioactivity Database for Drug Discovery," *Nucleic Acids Res*, vol. 40, pp. D1100-D1107, 2011, [DOI: 10.1093/nar/gkr777](https://doi.org/10.1093/nar/gkr777).
